@@ -287,14 +287,6 @@
       "type": "selector",
       "outbounds": [
         "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇭🇰|HK|hk|香港|港|HongKong"
-          ]
-        }
       ]
     },
     {
@@ -302,14 +294,6 @@
       "type": "selector",
       "outbounds": [
         "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇸🇬|SG|sg|新加坡|狮城|Singapore"
-          ]
-        }
       ]
     },
     {
@@ -317,14 +301,6 @@
       "type": "selector",
       "outbounds": [
         "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇯🇵|JP|jp|日本|日|Japan"
-          ]
-        }
       ]
     },
     {
@@ -332,20 +308,6 @@
       "type": "selector",
       "outbounds": [
         "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇺🇸|US|us|美国|美|United States"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "香港|港|HK|hk|HongKong"
-          ]
-        }
       ]
     },
     {
@@ -353,14 +315,6 @@
       "type": "urltest",
       "outbounds": [
         "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇭🇰|HK|hk|香港|港|HongKong"
-          ]
-        }
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -372,14 +326,6 @@
       "outbounds": [
         "{all}"
       ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇸🇬|SG|sg|新加坡|狮城|Singapore"
-          ]
-        }
-      ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
@@ -390,14 +336,6 @@
       "outbounds": [
         "{all}"
       ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇯🇵|JP|jp|日本|日|Japan"
-          ]
-        }
-      ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
@@ -407,20 +345,6 @@
       "type": "urltest",
       "outbounds": [
         "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇺🇸|US|us|美国|美|United States"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "香港|港|HK|hk|HongKong"
-          ]
-        }
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
